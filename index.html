@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <nav class="navigation-bar">
+      <div class="navigation-bar-left">
+        <img src="images/logo.svg" alt="logo" class="company-logo" />
+      </div>
+      <img src="images/icon-menu.svg" alt="menu" id="burger-menu" />
+
+      <div class="navigation-bar-links-container">
+        <ul class="navigation-bar-links">
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="navigation-bar-right">
+        <img src="images/icon-cart.svg" alt="cart" />
+        <img src="images/image-avatar.png" alt="avatar" />
+      </div>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <div class="main-image-container">
+      <img src="images/image-product-1.jpg" alt="" />
+      <div class="buttons-container">
+        <div class="left-button">
+          <img src="images/icon-previous.svg" alt="" />
+        </div>
+        <div class="right-button">
+          <img src="images/icon-previous.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="product-details">
+      <p>Sneaker Company</p>
+      <h1>Fall Limited Edition Sneakers</h1>
+
+      <p>
+        These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they’ll withstand everything the
+        weather can offer.
+      </p>
+
+      <div class="container">
+        <div class="price-details">
+          <div class="price-primary">
+            <h1 class="selling-price">$125.00</h1>
+            <p class="discount">50%</p>
+          </div>
+          <p class="original-price">$250.00</p>
+        </div>
+
+        <div class="quantity-container">
+          <img src="images/icon-minus.svg" alt="" />
+          <p>0</p>
+          <img src="images/icon-plus.svg" alt="" />
+        </div>
+
+        <button type="submit" id="add-to-cart">
+          <img src="images/icon-cart.svg" alt="" /> Add to cart
+        </button>
+      </div>
+    </div>
+
+    <br />
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mango Gills</a>.
+    </div>
+
+    <!-- script section -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
