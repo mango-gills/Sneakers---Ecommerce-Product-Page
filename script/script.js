@@ -1,4 +1,6 @@
 const burgerMenu = document.getElementById("burger-menu");
+const cartButton = document.getElementById("cart");
+
 const linksContainer = document.querySelector(
   ".navigation-bar-links-container"
 );
@@ -14,4 +16,8 @@ burgerMenu.addEventListener("click", () => {
   } else {
     burgerMenu.src = "images/icon-menu.svg";
   }
+});
+
+cartButton.addEventListener("click", () => {
+  document.querySelector(".cart-products").classList.toggle("active");
 });
